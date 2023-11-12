@@ -1,15 +1,21 @@
+body {
+    background-color: rgba(245, 222, 179, 0.5);
+}
+
 h1 {
     color: red;
     font-size: 40px;
-    font-family: arial;
+    /* font-family: arial; */
 }
 
-a {
+/* a {
     text-decoration: none;
     color: black;
 }
+ */
 
-header nav ul{
+
+/* header nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,5 +23,5 @@ header nav ul{
 }
 header nav ul li{
     margin: 0 10px;
-}
+} */
 
