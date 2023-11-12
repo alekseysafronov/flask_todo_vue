@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Todo{% endblock %}
+{% block content %}
+<!-- Todo list -->
+    <h1>Todo List</h1>
+    <ul>
+        {% for todo in todos %}
+        <li>{{ todo }}</li>
+        {% endfor %}
+    </ul>
+
+<!-- Add Todo -->
+    <h2>Add Todo</h2>
+    <form action="/add-todo" method="POST">
+        <input type="text" name="todo">
+        <button type="submit">Add</button>
+    </form>
+
+
+{% endblock %}

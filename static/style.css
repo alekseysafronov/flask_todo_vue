@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+    font-size: 40px;
+    font-family: arial;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li{
+    margin: 0 10px;
+}
+
