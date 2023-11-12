@@ -6,4 +6,24 @@ const vm = new Vue({ // Again, vm is our Vue instance's name for consistency.
     data: {
         greeting: 'Hello Vue!'
     }
-})
+});
+
+
+
+const EventHandling = {
+    data() {
+      return {
+        message: 'Привет, Vue.js!'
+      }
+    },
+    methods: {
+      reverseMessage() {
+        this.message = this.message
+          .split('')
+          .reverse()
+          .join('')
+      }
+    }
+  }
+  
+  Vue.createApp(EventHandling).mount('#event-handling')
